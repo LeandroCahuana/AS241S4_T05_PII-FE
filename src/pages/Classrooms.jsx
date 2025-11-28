@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import {
   getAllClassrooms,
   deleteClassroomGroup,
-} from "../shared/api/ClassroomApi";
+} from "../shared/api/classroomApi";
 import ClassroomTable from "../components/ClassroomTable";
 import ClassroomGenerateModal from "../components/ClassroomGenerateModal";
 import ClassroomGroupDetailModal from "../widgets/ClassroomGroupDetailModal";
