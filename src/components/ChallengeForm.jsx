@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, AlertCircle, Loader, ChevronRight, ChevronLeft, Check } from 'lucide-react';
-import { classroomApi } from '../shared/api/ClassroomApi';
+import { classroomApi } from '../shared/api/classroomApi';
 
 export default function ChallengeForm({ challenge, onClose, onSubmit, formType = 'CASO' }) {
     const [currentStep, setCurrentStep] = useState(1);

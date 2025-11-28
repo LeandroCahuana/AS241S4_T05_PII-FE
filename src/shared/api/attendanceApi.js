@@ -1,4 +1,5 @@
-const API_URL = 'http://192.168.1.200:3000/attendance';
+const BASE = import.meta.env.VITE_API_BASE_URL;
+const API_URL = BASE +'/attendance';
 
 export const attendanceApi = {
   // GET - Obtener todas las asistencias

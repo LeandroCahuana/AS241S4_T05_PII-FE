@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { X, Plus, Trash2, Pencil, Loader } from "lucide-react";
-import { getAllClassrooms } from "../shared/api/ClassroomApi";
+import { getAllClassrooms } from "../shared/api/classroomApi";
 
 export default function CriterionForm({ criterion, onClose, onSubmit }) {
 
