@@ -7,7 +7,7 @@ import {
     getAllClassrooms,
     assignClassroomSchedule,
     assignClassroomAuto,
-} from "../shared/api/ClassroomApi";
+} from "../shared/api/classroomApi";
 
 const weekdays = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"];
 
