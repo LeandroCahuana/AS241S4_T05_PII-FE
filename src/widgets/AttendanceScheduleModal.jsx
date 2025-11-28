@@ -1,6 +1,6 @@
 import { X, Clock } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import { classroomApi } from '../shared/api/ClassroomApi';
+import { classroomApi } from '../shared/api/classroomApi';
 
 export default function AttendanceScheduleModal({ show, onClose, onSave, currentConfig }) {
     const [config, setConfig] = useState({
