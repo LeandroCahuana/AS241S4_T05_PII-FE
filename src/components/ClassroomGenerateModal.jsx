@@ -4,7 +4,7 @@ import debounce from "lodash.debounce";
 
 import { studentsApi } from "../shared/api/studentsApi";
 import { teachingApi } from "../shared/api/TeachingApi";
-import { autoGenerateClassrooms } from "../shared/api/ClassroomApi";
+import { autoGenerateClassrooms } from "../shared/api/classroomApi";
 
 export default function ClassroomGenerateModal({
   onClose,
